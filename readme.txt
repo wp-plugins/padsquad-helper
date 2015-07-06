@@ -111,13 +111,14 @@ We require you disable caching for mobile devices, which many popular caching pl
 3. Under 'Rejected User Agents' paste in the list of user agents (located at the bottom of this question) into the field
 4. Press 'Save UA Strings'
 
-- User Agent List -
-ipod
-ipad
-iphone
-android
-blackberry.*applewebkit
-bb1\d.*mobile
+- User Agent List
+
+<p>ipod</p>
+<p>ipad</p>
+<p>iphone</p>
+<p>android</p>
+<p>blackberry.*applewebkit</p>
+<p>bb1\d.*mobile</p>
 
 = Are there conflicts with other mobile theme plugins? =
 Yes. You should disable those plugins while you are running the PadSquad plugin
