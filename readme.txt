@@ -111,7 +111,7 @@ We require you disable caching for mobile devices, which many popular caching pl
 3. Under 'Rejected User Agents' paste in the list of user agents (located at the bottom of this question) into the field
 4. Press 'Save UA Strings'
 
-- User Agent List
+- User Agent List -
 ipod
 ipad
 iphone
