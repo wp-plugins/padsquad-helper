@@ -1,33 +1,14 @@
 <?php
 /*
-Plugin Name: PadSquad Helper
+Plugin Name: PadSquad
 Plugin URI: http://padsquad.com/
-Description: PadSquad Helper
+Description: PadSquad
 Author: John Chen
 Version: 0.0.9
 Author URI: http://padsquad.com/
-License: GPL3
-
-	This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
- * 
- */
-    require 'plugin-updates/plugin-update-checker.php';
-	$MyUpdateChecker = PucFactory::buildUpdateChecker(
-			'http://asset.padsquad.com/plugin/update.json',
-			__FILE__,
-			'padsquad'
-	);
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
 	add_action('plugins_loaded', 'ps_initialize');
 	function ps_initialize() {
 		include 'ps_settings.php';
