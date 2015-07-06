@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin works with PadSquad's Mobify.js to create a beautiful responsive mobile interface.
+This plugin changes your website's mobile template to PadSquad's responsive mobile interface.
 
 == Description ==
 
@@ -65,13 +65,13 @@ First and foremost, please make sure your caching plugins are updated to the las
 In many cases, using multiple caching plugins will cause issues with proper caching and clearing your cache.
 We require you disable caching for mobile devices, which many popular caching plugins allow.
 
-- Hyper Cache -
+- Hyper Cache
 1. Go to 'Hyper Cache' in your settings submenu
 2. Go to the 'Mobile' tab
 3. On 'Working mode' select 'Bypass the cache'
 4. Press 'Save' on the bottom of the page 
 
-- W3 Total Cache -
+- W3 Total Cache
 1. Go to 'Performance' in your admin bar
 2. Go to 'Page Cache' submenu in the admin bar
 3. On 'Rejected user agents' paste in the list of user agents (located at the bottom of this question) into the field
@@ -83,19 +83,19 @@ We require you disable caching for mobile devices, which many popular caching pl
 9. On 'Rejected user agents' paste in the list of user agents (located at the bottom of this question) into the field
 10. Press 'Save all settings'
 
-- Wordfence Security -
+- Wordfence Security
 1. Go to 'Wordfence' in your admin bar
 2. Go to 'Performance Setup' submenu in the admin bar
 3. Under 'You can add items like URLs, cookies and browsers (user-agents) to exclude from caching', add in exclusions for the user agents listed below indivdually
 4. Make sure you are selecting 'User-Agent Contains' in the first dropdown box and not 'URL Starts with'
 
-- WP Fastest Cache -
+- WP Fastest Cache
 1. Go to 'WP Fastest Cache' in your admin bar
 2. Go to the 'Settings' tab
 3. Check 'Mobile: Don't show the cached version for desktop to mobile devices' option
 4. Press 'Submit' at the bottom of the page
 
-- WP Rocket -
+- WP Rocket
 1. Go to 'WP Rocket' in your settings submenu
 2. Go to the 'Basic options' tab
 3. On 'Lazyload' uncheck 'Images' and 'Iframes & Videos'
@@ -105,13 +105,13 @@ We require you disable caching for mobile devices, which many popular caching pl
 7. On 'Never send cache pages for these user agents' paste in the list of user agents (located at the bottom of this question) into the field
 8. Press 'Save Changes' at the top or bottom of the page
 
-- WP Super Cache -
+- WP Super Cache
 1. Go to 'WP Super Cache' in your settings submenu
 2. Go to the 'Advanced' tab
 3. Under 'Rejected User Agents' paste in the list of user agents (located at the bottom of this question) into the field
 4. Press 'Save UA Strings'
 
-- User Agent List -
+- User Agent List
 ipod
 ipad
 iphone
