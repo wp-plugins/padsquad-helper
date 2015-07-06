@@ -122,6 +122,11 @@ bb1\d.*mobile
 = Are there conflicts with other mobile theme plugins? =
 Yes. You should disable those plugins while you are running the PadSquad plugin
 
+== Screenshots ==
+1.
+2.
+3.
+
 == Changelog ==
 
 
