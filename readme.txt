@@ -123,9 +123,10 @@ bb1\d.*mobile
 Yes. You should disable those plugins while you are running the PadSquad plugin
 
 == Screenshots ==
-1.
-2.
-3.
+1. Panels page on iPhone.
+2. Panels page on iPad.
+3. Article page on iPad.
+4. Options menu.
 
 == Changelog ==
 
