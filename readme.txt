@@ -113,12 +113,12 @@ We require you disable caching for mobile devices, which many popular caching pl
 
 - User Agent List
 
-<p>ipod</p>
-<p>ipad</p>
-<p>iphone</p>
-<p>android</p>
-<p>blackberry.*applewebkit</p>
-<p>bb1\d.*mobile</p>
+ipod</br>
+ipad</br>
+iphone</br>
+android</br>
+blackberry.*applewebkit</br>
+bb1\d.*mobile</br>
 
 = Are there conflicts with other mobile theme plugins? =
 Yes. You should disable those plugins while you are running the PadSquad plugin
